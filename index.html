@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    
+    <main class="mainContainer">
+      <img class="logoImg" src="./image/logo1.png" alt="" />
+      <div class="boxText">
+        <p class="textMain">Bem vindo ao Super Nintendo World, cada personagem tem algumas missões para cumprir e manter o mundo nintendo seguro.</p>
+        <br>
+        <p><strong>
+          Escolha um personagem para entrar nesta aventura.
+        </strong></p>
+      </div>
+      <div class="imageBox">
+        <img class="characters" src="./image/mario.png" alt="avatar do mario" onclick="fase1()" />
+        <img class="characters" src="./image/luigi.png" alt="avatar do luigi" onclick="fase1Luigi()"/>
+        <img class="characters" src="./image/princesa.png" alt="avatar da princesa" onclick="fase1Peach()"/>
+      </div>
+      <div class="boxName">
+      <h1>Mario</h1>
+      <h1>Luigi</h1>
+      <h1>Peach</h1>
+    </div>
+    </main>
+
+    <script>
+      function fase1(){
+  location.assign("./marioFases/fase1.html");
+      }
+    function fase1Luigi(){
+  location.assign("./luigiFases/luigi-fase1.html");
+}
+
+function fase1Peach(){
+  location.assign("./peachFases/peach-fase1.html");
+}
+    </script>
+  </body>
+</html>

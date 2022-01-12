@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+}
+body {
+  background-image: linear-gradient(to bottom, #af41a0fa, #f37ce9, #e0a3e8, #ddbddd, #d3d3d3);
+
+}
+
+/* fase 1 -----------------------------------------------------------------------------------------------------------------*/
+
+.boxPeach1 {
+  background-image: linear-gradient(to bottom, #723777, #65006e, #9300a0, #b600c7, #d212eb);
+  width: 55%;
+  height: 55rem;
+  margin: 2rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.aventure1{
+  background: rgba(255, 255, 255, 0.479);
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 20px;
+}
+
+main > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+main > p {
+  font-size: ;
+}
+
+.boxImagePeach{
+  width: 80%;
+  height: 50%;
+  background: rgba(255, 134, 134, 0);
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 80%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
