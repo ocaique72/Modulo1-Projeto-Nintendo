@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   width: 100%;
 }
 
 body {
   background-image: url("https://i.pinimg.com/originals/31/0d/4a/310d4a2f36b4fe4a07a31f5f7759a4d3.jpg");
-  
 }
 
 .mainContainer {
@@ -21,15 +21,14 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 13px;
-
 }
 
+/* ------ PERSONAGENS DE SELEÇÃO  --------- */
 .characters {
   border-radius: 50%;
   width: 27%;
   border: 5px solid rgba(33, 0, 122, 0.794);
   cursor: pointer;
-  
 }
 
 .imageBox {
@@ -40,9 +39,11 @@ body {
   margin-top: 30px;
 }
 
+/* ---------HEADER DA PAG ------------ */
+
 .logoImg {
-width: 35%;
-margin-top: 1rem;
+  width: 35%;
+  margin-top: 1rem;
 }
 
 .titleName {
@@ -51,23 +52,24 @@ margin-top: 1rem;
   height: 50px;
   margin-top: 2%;
   background-color: #342299;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-color: transparent;
-text-shadow: rgba(160, 43, 43, 0.842) 0px 3px 3px;
-color: transparent;
-margin-bottom: 3rem;
-  
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(160, 43, 43, 0.842) 0px 3px 3px;
+  color: transparent;
+  margin-bottom: 3rem;
 }
 
-.characters:hover{
+
+/* ------- hover dos personagens -------- */
+
+.characters:hover {
   background-color: rgb(255, 1, 1);
   transition: all 1.5s;
   -webkit-transform: rotateY(-360deg);
-      -ms-transform: rotateY(-360deg);
-      transform: rotateY(-360deg);
-      
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
 }
 .boxName {
   display: flex;
@@ -77,14 +79,12 @@ margin-bottom: 3rem;
   padding-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
-  
 }
 
 body > img {
   display: flex;
   margin: 0 auto;
   margin-top: 40px;
-  
 }
 
 .boxText {
@@ -93,10 +93,5 @@ body > img {
   margin-top: 1.5rem;
   padding: 12px;
   font-size: 23px;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
-
-
-
-
-
