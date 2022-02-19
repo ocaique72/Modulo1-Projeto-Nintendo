@@ -1,19 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   width: 100%;
 }
 body {
-  background-image: linear-gradient(to bottom, #41af4afa, #7cf3a4, #a3e8cb, #bdddd1, #d3d3d3);
-
+  background-image: linear-gradient(
+    to bottom,
+    #41af4afa,
+    #7cf3a4,
+    #a3e8cb,
+    #bdddd1,
+    #d3d3d3
+  );
 }
 
 /* fase 1 -----------------------------------------------------------------------------------------------------------------*/
 
 .boxLuigi1 {
-  background-image: linear-gradient(to bottom, #37773a, #006e00, #00a00d, #00c742, #12eb12);
+  background-image: linear-gradient(
+    to bottom,
+    #37773a,
+    #006e00,
+    #00a00d,
+    #00c742,
+    #12eb12
+  );
   width: 55%;
   height: 55rem;
   margin: 2rem;
@@ -22,14 +36,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 body {
   display: flex;
   justify-content: center;
 }
 
-.aventure1{
+.aventure1 {
   background: rgba(255, 255, 255, 0.479);
   width: 50%;
   margin: 0 auto;
@@ -43,7 +56,7 @@ main > h1 {
   margin: 25px;
 }
 
-.boxImageLuigi{
+.boxImageLuigi {
   width: 80%;
   height: 50%;
   background: rgba(255, 134, 134, 0);
@@ -56,4 +69,3 @@ img {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
 }
-

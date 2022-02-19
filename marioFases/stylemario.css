@@ -1,19 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   width: 100%;
 }
 body {
-  background-image: linear-gradient(to bottom, #3284ff, #7c95f3, #a3a8e8, #bebddd, #d3d3d3);
-
+  background-image: linear-gradient(
+    to bottom,
+    #3284ff,
+    #7c95f3,
+    #a3a8e8,
+    #bebddd,
+    #d3d3d3
+  );
 }
 
 /* fase 1 -----------------------------------------------------------------------------------------------------------------*/
 
 .boxMario1 {
-  background-image: linear-gradient(to bottom, #051937, #00466e, #007aa0, #00b2c7, #12ebe1);
+  background-image: linear-gradient(
+    to bottom,
+    #051937,
+    #00466e,
+    #007aa0,
+    #00b2c7,
+    #12ebe1
+  );
   width: 55%;
   height: 55rem;
   margin: 2rem;
@@ -22,14 +36,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 body {
   display: flex;
   justify-content: center;
 }
 
-.aventure1{
+.aventure1 {
   background: rgba(255, 255, 255, 0.479);
   width: 50%;
   margin: 0 auto;
@@ -43,7 +56,7 @@ main > h1 {
   margin: 25px;
 }
 
-.boxImageMario{
+.boxImageMario {
   width: 80%;
   height: 50%;
   background: rgba(255, 134, 134, 0);
@@ -56,4 +69,3 @@ img {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
 }
-
