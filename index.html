@@ -16,7 +16,7 @@
   </head>
   <body>
     <main class="mainContainer">
-      <img class="logoImg" src="./image/logo1.png" alt="" />
+      <img class="logoImg" id="imgLogo" src="./image/logo1.png" alt="" />
       <div class="boxText">
         <p class="textMain">
           Bem vindo ao Super Nintendo World, cada personagem tem algumas missões
@@ -30,27 +30,30 @@
       <div class="imageBox">
         <img
           class="characters"
+          id="avatarMario"
           src="./image/mario.png"
           alt="avatar do mario"
           onclick="fase1()"
         />
         <img
           class="characters"
+          id="avatarLuigi"
           src="./image/luigi.png"
           alt="avatar do luigi"
           onclick="fase1Luigi()"
         />
         <img
           class="characters"
+          id="avatarPrincesa"
           src="./image/princesa.png"
           alt="avatar da princesa"
           onclick="fase1Peach()"
         />
       </div>
       <div class="boxName">
-        <h1>Mario</h1>
-        <h1>Luigi</h1>
-        <h1>Peach</h1>
+        <h1 class="personagensNome" id="nomeMario">Mario</h1>
+        <h1 class="personagensNome" id="nomeLuigi">Luigi</h1>
+        <h1 class="personagensNome" id="nomePeach">Peach</h1>
       </div>
     </main>
   </body>
